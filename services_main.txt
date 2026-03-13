@@ -1,0 +1,140 @@
+<main id="main">
+    <section class="bg-white py-20">
+      <div class="max-w-6xl mx-auto px-4 grid gap-12 lg:grid-cols-2 items-center">
+        <div class="bg-white rounded-[26px] p-8 shadow-strong" data-reveal>
+          <p class="inline-flex items-center gap-2 rounded-full bg-navy/10 text-navy px-4 py-2 text-xs font-semibold uppercase tracking-wide">Our Services</p>
+          <h1 class="font-display text-navy text-4xl md:text-5xl leading-tight mt-4">Integrated, regulated care that stays with people through every transition</h1>
+          <p class="text-muted mt-4">Specialist placements and outreach services shaped by evidence-led practice and safeguarding governance.</p>
+        </div>
+        <div class="rounded-[26px] overflow-hidden shadow-strong bg-gradient-to-br from-orange/20 to-navy/5" data-reveal>
+          <img src="assets/img/hero-services.svg" alt="Supportive residential care environment" />
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-navy text-3xl">Children's Residential Home</h2>
+        <p class="text-muted mt-3">2�4 bed therapeutic placements designed for stabilisation and safeguarding.</p>
+        <div class="grid gap-6 mt-8 md:grid-cols-3">
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Therapeutic model</h3>
+            <p class="text-muted text-sm mt-2">Trauma-informed support with consistent staffing and clinical oversight.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Placement stability</h3>
+            <p class="text-muted text-sm mt-2">Structured routines, education engagement and relational practice.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Safeguarding focus</h3>
+            <p class="text-muted text-sm mt-2">Risk-managed environments with clear escalation protocols.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-navy text-3xl">Mother & Baby Unit</h2>
+        <p class="text-muted mt-3">Residential parenting assessment with infant safety frameworks and court-ready evidence reporting.</p>
+        <div class="grid gap-6 mt-8 md:grid-cols-3">
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Assessment pathway</h3>
+            <p class="text-muted text-sm mt-2">Structured observations, parenting capacity assessment and tailored support.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Infant safety</h3>
+            <p class="text-muted text-sm mt-2">24/7 supervision options, safe sleep standards and safeguarding guidance.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Evidence reporting</h3>
+            <p class="text-muted text-sm mt-2">Clear, court-ready reporting with measurable progress indicators.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-navy text-3xl">Supported Living</h2>
+        <p class="text-muted mt-3">Tenancy-based support for adults transitioning into independent living.</p>
+        <div class="grid gap-6 mt-8 md:grid-cols-3">
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Tenancy sustainment</h3>
+            <p class="text-muted text-sm mt-2">Support with budgeting, tenancy responsibilities and community engagement.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Wellbeing planning</h3>
+            <p class="text-muted text-sm mt-2">Person-centred care plans aligned to CQC standards.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Outcome tracking</h3>
+            <p class="text-muted text-sm mt-2">Regular reviews and progress tracking for commissioners.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-navy text-3xl">Independent Living (16+)</h2>
+        <p class="text-muted mt-3">Preparation for adulthood through structured life-skills development.</p>
+        <div class="grid gap-6 mt-8 md:grid-cols-3">
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Step-down support</h3>
+            <p class="text-muted text-sm mt-2">Gradual transition planning with clear milestones.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Education and employment</h3>
+            <p class="text-muted text-sm mt-2">Focus on training, apprenticeships and pathways to work.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Independent living skills</h3>
+            <p class="text-muted text-sm mt-2">Cooking, budgeting, tenancy management and wellbeing routines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-navy text-3xl">Welfare Visits & Outreach</h2>
+        <p class="text-muted mt-3">Safeguarding oversight and early intervention services.</p>
+        <div class="grid gap-6 mt-8 md:grid-cols-3">
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Safeguarding visits</h3>
+            <p class="text-muted text-sm mt-2">Commissioner-ready reporting, risk alerts and action plans.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Outreach support</h3>
+            <p class="text-muted text-sm mt-2">Short-term interventions to stabilise placements.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Multi-agency collaboration</h3>
+            <p class="text-muted text-sm mt-2">Coordinated delivery with social workers and partner agencies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-navy text-3xl">Supervised Contact</h2>
+        <p class="text-muted mt-3">Safe environments for family contact with trained supervision staff.</p>
+        <div class="grid gap-6 mt-8 md:grid-cols-3">
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Neutral settings</h3>
+            <p class="text-muted text-sm mt-2">Consistent, safe environments and trauma-informed supervision.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Evidence capture</h3>
+            <p class="text-muted text-sm mt-2">Detailed, objective session notes and reporting.</p>
+          </div>
+          <div class="bg-white rounded-[18px] p-6 shadow-soft" data-reveal>
+            <h3 class="font-semibold text-navy">Safeguarding oversight</h3>
+            <p class="text-muted text-sm mt-2">Clear escalation routes and risk management plans.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
