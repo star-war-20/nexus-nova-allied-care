@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang='en-GB' class='scroll-smooth'>
+
 <head>
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -40,6 +41,7 @@
     }
   </script>
 </head>
+
 <body class='bg-bg text-ink font-sans leading-relaxed overflow-x-hidden'>
   <div class='scroll-progress' id='scrollProgress'></div>
   <a class='sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[1000] focus:bg-orange focus:text-navy focus:px-4 focus:py-2 focus:rounded-full font-semibold'
@@ -96,80 +98,223 @@
     <section class="hero-gradient pt-24 pb-32 relative text-white">
       <div class="max-w-6xl mx-auto px-4 grid gap-12 lg:grid-cols-2 items-center">
         <div class="glass-card rounded-[26px] p-8" data-reveal>
-          <p class="inline-flex items-center gap-2 rounded-full bg-white/20 text-white px-4 py-2 text-xs font-semibold uppercase tracking-wide">Our Homes</p>
-          <h1 class="font-display text-white text-4xl md:text-5xl leading-tight mt-4">Small, therapeutic homes designed for safety and stability</h1>
-          <p class="text-white/80 mt-4">Purpose-designed environments with experienced teams, tailored care plans and clear safeguarding structures.</p>
+          <p
+            class="inline-flex items-center gap-2 rounded-full bg-white/20 text-white px-4 py-2 text-xs font-semibold uppercase tracking-wide">
+            Our Homes</p>
+          <h1 class="font-display text-white text-4xl md:text-5xl leading-tight mt-4">Small, therapeutic homes designed
+            for safety and stability</h1>
+          <p class="text-white/80 mt-4">Purpose-designed environments with experienced teams, tailored care plans and
+            clear safeguarding structures.</p>
         </div>
-        <div class="rounded-[26px] overflow-hidden shadow-strong bg-gradient-to-br from-orange/20 to-navy/5" data-reveal>
+        <div class="rounded-[26px] overflow-hidden shadow-strong bg-gradient-to-br from-orange/20 to-navy/5"
+          data-reveal>
           <img src="assets/img/home-ivy-bridge.png" alt="Residential care home" />
         </div>
       </div>
     </section>
 
-    <section class="py-20 relative overflow-hidden">
+    <section class="relative overflow-hidden">
 
-    <!-- CTA BACKGROUND STYLE OVERLAY -->
-    <div class="absolute inset-0 z-0">
-      <img src="assets/img/cta-bg.png" alt="" class="w-full h-full object-cover opacity-10" />
-      <div class="absolute inset-0 bg-white/60 backdrop-blur-sm"></div>
-    </div>
-    <div class="max-w-6xl mx-auto px-4 relative z-10">
-
-        <h2 class="font-display text-navy text-3xl">Residential Homes</h2>
-        <p class="text-muted mt-3">Each home provides structured routines, trauma-informed practice and consistent staffing.</p>
-        <div class="grid gap-6 mt-8 md:grid-cols-2 lg:grid-cols-3">
-          <article class="glass-card-light rounded-[18px] p-6 shadow-soft" data-reveal>
-            <img class="rounded-xl" src="assets/img/home-placeholder.svg" alt="Ivy Bridge home" />
-            <h3 class="font-semibold text-navy mt-4">Ivy Bridge</h3>
-            <p class="text-muted text-sm">Location: Manchester</p>
-            <p class="text-muted text-sm">Bedrooms: 3 | Facilities: Sensory room, garden, education space</p>
-            <p class="text-muted text-sm">Ofsted rating: Placeholder</p>
-            <p class="text-muted text-sm mt-2">Referral process: 24-48 hour suitability review and placement planning.</p>
-          </article>
-          <article class="glass-card-light rounded-[18px] p-6 shadow-soft" data-reveal>
-            <img class="rounded-xl" src="assets/img/home-placeholder.svg" alt="Harbour House home" />
-            <h3 class="font-semibold text-navy mt-4">Harbour House</h3>
-            <p class="text-muted text-sm">Location: Birmingham</p>
-            <p class="text-muted text-sm">Bedrooms: 4 | Facilities: Therapy room, family lounge, secure outdoor area</p>
-            <p class="text-muted text-sm">Ofsted rating: Placeholder</p>
-            <p class="text-muted text-sm mt-2">Referral process: Multi-agency placement meeting and risk review.</p>
-          </article>
-          <article class="glass-card-light rounded-[18px] p-6 shadow-soft" data-reveal>
-            <img class="rounded-xl" src="assets/img/home-placeholder.svg" alt="Nova Lodge home" />
-            <h3 class="font-semibold text-navy mt-4">Nova Lodge</h3>
-            <p class="text-muted text-sm">Location: Leeds</p>
-            <p class="text-muted text-sm">Bedrooms: 2 | Facilities: Clinical input, quiet spaces, community links</p>
-            <p class="text-muted text-sm">Ofsted rating: Placeholder</p>
-            <p class="text-muted text-sm mt-2">Referral process: Emergency placements available with safeguarding plan.</p>
-          </article>
-        </div>
+      <!-- CTA BACKGROUND STYLE OVERLAY -->
+      <div class="absolute inset-0 z-0">
+        <img src="assets/img/cta-bg.png" alt="" class="w-full h-full object-cover opacity-10" />
+        <div class="absolute inset-0 bg-white/60 backdrop-blur-sm"></div>
       </div>
-    </section>
+      <div class="mx-auto relative z-10">
 
-    <section class="py-20 section-gradient-cool floating-shapes" id="referral-process">
-      <div class="max-w-6xl mx-auto px-4">
-        <h2 class="font-display text-navy text-3xl">Referral Process</h2>
-        <p class="text-muted mt-3">Clear, responsive pathways for commissioners and social workers.</p>
-        <div class="grid gap-6 mt-8 md:grid-cols-2 lg:grid-cols-4">
-          <div class="glass-card-light rounded-[18px] p-6 shadow-soft" data-reveal>
-            <h3 class="font-semibold text-navy">Initial enquiry</h3>
-            <p class="text-muted text-sm mt-2">Call or email our placements team with a referral summary and risk profile.</p>
+        <!-- RESIDENTIAL HOMES -->
+        <section class="py-24 bg-navy text-white relative overflow-hidden">
+          <!-- Decorative background elements -->
+          <div class="absolute inset-0 opacity-20" aria-hidden="true">
+            <div
+              class="absolute w-96 h-96 bg-orange rounded-full mix-blend-multiply filter blur-3xl opacity-50 -top-20 -left-20">
+            </div>
+            <div
+              class="absolute w-96 h-96 bg-purple rounded-full mix-blend-multiply filter blur-3xl opacity-50 bottom-10 right-10">
+            </div>
           </div>
-          <div class="glass-card-light rounded-[18px] p-6 shadow-soft" data-reveal>
-            <h3 class="font-semibold text-navy">Suitability review</h3>
-            <p class="text-muted text-sm mt-2">We complete a 24-48 hour assessment to confirm placement alignment.</p>
+
+          <div class="max-w-6xl mx-auto px-4 relative z-10">
+            <div class="text-center mb-16">
+              <span
+                class="inline-block px-4 py-1.5 rounded-full bg-white/10 text-white text-xs font-bold uppercase tracking-widest backdrop-blur-md border border-white/20">Our
+                Locations</span>
+              <h2 class="font-display text-white text-4xl mt-4">Residential Homes</h2>
+              <p class="text-white/70 mt-4 text-lg max-w-2xl mx-auto">Each home provides highly structured routines,
+                trauma-informed practice and consistently stable staffing to ensure optimal safeguarding.</p>
+            </div>
+
+            <div class="grid gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+              <article
+                class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[24px] overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:bg-white/10 group shadow-strong"
+                data-reveal>
+                <div class="h-56 overflow-hidden relative">
+                  <img src="assets/img/home-ivy-bridge.png" alt="Ivy Bridge home"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-navy/90 to-transparent"></div>
+                  <div class="absolute bottom-4 left-6">
+                    <h3 class="font-display font-semibold text-white text-2xl">Ivy Bridge</h3>
+                    <p class="text-orange text-sm font-medium tracking-wide">Manchester</p>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <ul class="space-y-3 mb-6">
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">3 Bedrooms</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">Sensory room & garden</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">Education space</span>
+                    </li>
+                  </ul>
+                  <div class="pt-4 border-t border-white/10">
+                    <p class="text-white/50 text-xs italic">Referral process: 24-48 hour suitability review and
+                      placement planning.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[24px] overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:bg-white/10 group shadow-strong"
+                data-reveal style="transition-delay: 100ms;">
+                <div class="h-56 overflow-hidden relative">
+                  <img src="assets/img/home-harbour-house.png" alt="Harbour House home"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-navy/90 to-transparent"></div>
+                  <div class="absolute bottom-4 left-6">
+                    <h3 class="font-display font-semibold text-white text-2xl">Harbour House</h3>
+                    <p class="text-orange text-sm font-medium tracking-wide">Birmingham</p>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <ul class="space-y-3 mb-6">
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">4 Bedrooms</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">Therapy & family lounge</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">Secure outdoor area</span>
+                    </li>
+                  </ul>
+                  <div class="pt-4 border-t border-white/10">
+                    <p class="text-white/50 text-xs italic">Referral process: Multi-agency placement meeting and risk
+                      review.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[24px] overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:bg-white/10 group shadow-strong"
+                data-reveal style="transition-delay: 200ms;">
+                <div class="h-56 overflow-hidden relative">
+                  <img src="assets/img/home-nova-lodge.png" alt="Nova Lodge home"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-navy/90 to-transparent"></div>
+                  <div class="absolute bottom-4 left-6">
+                    <h3 class="font-display font-semibold text-white text-2xl">Nova Lodge</h3>
+                    <p class="text-orange text-sm font-medium tracking-wide">Leeds</p>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <ul class="space-y-3 mb-6">
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">2 Bedrooms</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">Clinical input</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <span class="text-orange shrink-0">&#10003;</span>
+                      <span class="text-white/70 text-sm">Community links</span>
+                    </li>
+                  </ul>
+                  <div class="pt-4 border-t border-white/10">
+                    <p class="text-white/50 text-xs italic">Referral process: Emergency placements available with
+                      safeguarding plan.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
           </div>
-          <div class="glass-card-light rounded-[18px] p-6 shadow-soft" data-reveal>
-            <h3 class="font-semibold text-navy">Placement planning</h3>
-            <p class="text-muted text-sm mt-2">Transition plans, clinical input and education alignment confirmed.</p>
+        </section>
+
+        <!-- REFERRAL PROCESS -->
+        <section class="py-32 relative flex items-center overflow-hidden" id="referral-process">
+          <!-- Background Image & Overlay -->
+          <div class="absolute inset-0 z-0">
+            <img src="assets/img/hero-care.png" alt="Referral Meeting"
+              class="w-full h-full object-cover rounded-none" />
+            <div class="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/80 to-navy/40"></div>
           </div>
-          <div class="glass-card-light rounded-[18px] p-6 shadow-soft" data-reveal>
-            <h3 class="font-semibold text-navy">Move-in and review</h3>
-            <p class="text-muted text-sm mt-2">Weekly reviews with commissioners, measurable outcomes and safeguarding checks.</p>
+
+          <div class="max-w-6xl mx-auto px-4 relative z-10 w-full">
+            <div class="max-w-2xl mb-12">
+              <span
+                class="inline-block px-4 py-1.5 rounded-full bg-orange/20 text-white border border-orange/40 text-xs font-bold uppercase tracking-widest">Placements</span>
+              <h2 class="font-display text-white text-4xl mt-4">Referral Process</h2>
+              <p class="text-white/80 mt-4 text-lg">Exceptionally clear, highly responsive placement pathways designed
+                directly for commissioners and social workers.</p>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+              <div
+                class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[20px] p-8 shadow-strong relative group hover:bg-white/20 transition duration-300"
+                data-reveal>
+                <div
+                  class="absolute -top-5 -left-5 w-12 h-12 rounded-full bg-orange text-navy font-bold text-xl flex items-center justify-center shadow-lg border-4 border-navy">
+                  1</div>
+                <h3 class="font-semibold text-white text-xl mt-4">Initial Enquiry</h3>
+                <p class="text-white/70 text-sm mt-3 leading-relaxed">Call or email our dedicated placements team
+                  immediately with a brief referral summary and accurate risk profile.</p>
+              </div>
+
+              <div
+                class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[20px] p-8 shadow-strong relative group hover:bg-white/20 transition duration-300"
+                data-reveal style="transition-delay: 100ms;">
+                <div
+                  class="absolute -top-5 -left-5 w-12 h-12 rounded-full bg-orange text-navy font-bold text-xl flex items-center justify-center shadow-lg border-4 border-navy">
+                  2</div>
+                <h3 class="font-semibold text-white text-xl mt-4">Review</h3>
+                <p class="text-white/70 text-sm mt-3 leading-relaxed">We will complete an exhaustive 24-48 hour
+                  suitability assessment to flawlessly confirm placement alignment.</p>
+              </div>
+
+              <div
+                class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[20px] p-8 shadow-strong relative group hover:bg-white/20 transition duration-300"
+                data-reveal style="transition-delay: 200ms;">
+                <div
+                  class="absolute -top-5 -left-5 w-12 h-12 rounded-full bg-orange text-navy font-bold text-xl flex items-center justify-center shadow-lg border-4 border-navy">
+                  3</div>
+                <h3 class="font-semibold text-white text-xl mt-4">Planning</h3>
+                <p class="text-white/70 text-sm mt-3 leading-relaxed">Solid transition plans mapped out, clinical input
+                  assigned, and educational alignment fully confirmed.</p>
+              </div>
+
+              <div
+                class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[20px] p-8 shadow-strong relative group hover:bg-white/20 transition duration-300"
+                data-reveal style="transition-delay: 300ms;">
+                <div
+                  class="absolute -top-5 -left-5 w-12 h-12 rounded-full bg-orange text-navy font-bold text-xl flex items-center justify-center shadow-lg border-4 border-navy">
+                  4</div>
+                <h3 class="font-semibold text-white text-xl mt-4">Placement</h3>
+                <p class="text-white/70 text-sm mt-3 leading-relaxed">Safe move-in followed by weekly reviews with
+                  commissioners providing detailed, rigorously measurable outcomes.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
   </main>
 
   <footer class='section-gradient-navy text-white py-16 relative overflow-hidden'>
